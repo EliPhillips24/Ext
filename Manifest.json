@@ -1,0 +1,25 @@
+{
+    "name": "FirstExt",
+    "version": "1",
+    "description": "",
+    "manifest_version": 3,
+    "permissions": [
+        "webNavigation",
+        "declarativeContent",
+        "storage",
+        "tabs"
+    ],
+    "background": {
+    },
+  
+    
+    "icons": {
+        "16": "images/16xz.png",
+        "48": "images/Ext.png"
+    },
+    "action":{
+            "default_popup": "popup.html"
+        
+    }
+        
+}
